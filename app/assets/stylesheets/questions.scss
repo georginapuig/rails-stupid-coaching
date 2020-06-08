@@ -1,0 +1,72 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+
+.container {
+  padding-left: 20px;
+}
+
+.card {
+  padding-bottom: 30px;
+}
+
+.title {
+  color: #3a3a3a;
+}
+
+.you {
+  font-style: italic;
+  font-weight: 300;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1e3096;
+  transition: .3s;
+}
+
+a:hover {
+  color: #3f52c2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 20%;
+  padding: 12px 5px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  padding: 12px 23px;
+  border: 1px solid #1e3096;
+  border-radius: 5px;
+  color: #1e3096;
+  font-weight: 500;
+  background-color: transparent;
+  transition: .3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #1e3096;
+  color: white;
+}
